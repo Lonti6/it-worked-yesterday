@@ -384,8 +384,8 @@ RectTransform:
   m_Children:
   - {fileID: 336791961}
   - {fileID: 519420032}
-  - {fileID: 785624172}
   - {fileID: 1879843285}
+  - {fileID: 785624172}
   - {fileID: 1849757688}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -850,7 +850,7 @@ Transform:
   m_Children:
   - {fileID: 324103900}
   m_Father: {fileID: 594871351}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1879843286
 SpriteRenderer:
@@ -954,6 +954,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1849757688}
     m_Modifications:
+    - target: {fileID: 5265338768547893081, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265338768547893081, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 5265338768753590425, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1001,6 +1009,14 @@ PrefabInstance:
     - target: {fileID: 5265338768753590426, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
       propertyPath: m_Name
       value: Header
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265338769202017892, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a6f88a68ae9e7494bb936533e506ece4, type: 3}
+    - target: {fileID: 5265338769202017894, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
