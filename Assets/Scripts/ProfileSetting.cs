@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProfileSetting : MonoBehaviour
+public class ProfileSetting 
 {
     string FirstName = "";
     string LastName = "";
-    string Phone = ""; 
+    string Phone = "";
+
+    static ProfileSetting PROFILE = new ProfileSetting();
 }
