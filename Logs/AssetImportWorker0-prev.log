@@ -15,11 +15,11 @@ E:/Unity Projects/it worked yesterday
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52415
+53199
 Successfully changed project path to: E:/Unity Projects/it worked yesterday
 E:/Unity Projects/it worked yesterday
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 97.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 98.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path D:/Программы/Unity3D/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,156 +35,118 @@ Initialize mono
 Mono path[0] = 'D:/Программы/Unity3D/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Программы/Unity3D/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Программы/Unity3D/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Программы/Unity3D/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/Программы/Unity3D/2020.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.008678 seconds.
+Registered in 0.004814 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 129.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/devenv.exe
 Mono: successfully reloaded assembly
-- Completed reload, in  5.199 seconds
+- Completed reload, in  3.526 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.025823 seconds.
+Registered in 0.005982 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 101.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.067 seconds
+- Completed reload, in  2.652 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.8 MB.
-System memory in use after: 92.7 MB.
+System memory in use after: 92.8 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2513.
-Total: 6.153900 ms (FindLiveObjects: 0.524300 ms CreateObjectMapping: 0.089900 ms MarkObjects: 5.198400 ms  DeleteObjects: 0.337100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(a2f7266aac060c84db0836620aaba07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(a2f7266aac060c84db0836620aaba07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dda44994536a678514231d40b96be7') in 0.020260 seconds
-  Import took 0.032932 seconds .
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2514.
+Total: 6.023800 ms (FindLiveObjects: 0.740500 ms CreateObjectMapping: 0.150200 ms MarkObjects: 4.805400 ms  DeleteObjects: 0.322900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000796 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27944bdea339c97c39027c7eea529c') in 0.022567 seconds
-  Import took 0.031667 seconds .
+  path: Assets/Font/OpenSans-Bold.ttf
+  artifactKey: Guid(e87bc9b5c166e014dbb7064a44e06ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/OpenSans-Bold.ttf using Guid(e87bc9b5c166e014dbb7064a44e06ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2470897e621fef846bfff510b2595487') in 0.309388 seconds
+  Import took 0.317774 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.598831 seconds.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2063302bb151951eba0362b8067fa1a0') in 0.003641 seconds
-  Import took 0.012419 seconds .
+  Time since last request: 0.000524 seconds.
+  path: Assets/Font/OpenSans-BoldItalic.ttf
+  artifactKey: Guid(170972a984083ba409680f82995a12d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/OpenSans-BoldItalic.ttf using Guid(170972a984083ba409680f82995a12d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4270bcce2cdae6f719b2f9909a6d2f96') in 0.020670 seconds
+  Import took 0.030300 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.474735 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004342 seconds
-  Import took 0.016778 seconds .
+  Time since last request: 0.000532 seconds.
+  path: Assets/Font/OpenSans-LightItalic.ttf
+  artifactKey: Guid(c2e21b8c51244f94f8b4c5dcca7940a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/OpenSans-LightItalic.ttf using Guid(c2e21b8c51244f94f8b4c5dcca7940a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430408413172f3cf457719e27a6d5306') in 0.022628 seconds
+  Import took 0.031130 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002722 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.003464 seconds
-  Import took 0.013860 seconds .
+  Time since last request: 0.000413 seconds.
+  path: Assets/Font/OpenSans-ExtraBold.ttf
+  artifactKey: Guid(ff02ce63edb73834fbc5792e12d8adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/OpenSans-ExtraBold.ttf using Guid(ff02ce63edb73834fbc5792e12d8adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653103bda2d36f3b5eec5992e81f72fa') in 0.031537 seconds
+  Import took 0.042452 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.194294 seconds.
-  path: Assets/Images
-  artifactKey: Guid(8f4a4e1d89312b442bc87296f8c766de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images using Guid(8f4a4e1d89312b442bc87296f8c766de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf259e9a64ce6fda41a4d0e52cf480cd') in 0.004657 seconds
-  Import took 0.015493 seconds .
+  Time since last request: 0.000459 seconds.
+  path: Assets/Font/OpenSans-Light.ttf
+  artifactKey: Guid(8f03d6ba4034ea8498cd22dd795cbd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/OpenSans-Light.ttf using Guid(8f03d6ba4034ea8498cd22dd795cbd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e9c1bc98a3c5f1c02f77b01b709b93') in 0.030856 seconds
+  Import took 0.042041 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.626052 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(69ec304ad3fec4f48a9d8a55180afb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(69ec304ad3fec4f48a9d8a55180afb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a0815f56502c647470faf9162593a9') in 0.002654 seconds
-  Import took 0.011298 seconds .
+  Time since last request: 0.000397 seconds.
+  path: Assets/Font/OpenSans-Italic.ttf
+  artifactKey: Guid(52ef7819fd1fdfa4f96ab0462fadadd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/OpenSans-Italic.ttf using Guid(52ef7819fd1fdfa4f96ab0462fadadd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64965f48b4af24f2097d5ca50c42dd3') in 0.027823 seconds
+  Import took 0.036307 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 825.874762 seconds.
-  path: Assets/Images/Rectangle 23.png
-  artifactKey: Guid(effb7de560aabc34cb0c4eca26680fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Rectangle 23.png using Guid(effb7de560aabc34cb0c4eca26680fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088367cd5b367cc9fa649d8640d52beb') in 0.297509 seconds
-  Import took 0.308870 seconds .
+  Time since last request: 0.000557 seconds.
+  path: Assets/Font/OpenSans-Semibold.ttf
+  artifactKey: Guid(765f8bc361364244bb8704e09f5fb723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/OpenSans-Semibold.ttf using Guid(765f8bc361364244bb8704e09f5fb723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0a15a199d77493907fa6ebb1c703c6') in 0.027604 seconds
+  Import took 0.035307 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 46.544938 seconds.
-  path: Assets/Images/Rectangle 23.png
-  artifactKey: Guid(effb7de560aabc34cb0c4eca26680fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Rectangle 23.png using Guid(effb7de560aabc34cb0c4eca26680fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972c2a79c5acebd27e6542a5ba58ce55') in 0.020400 seconds
-  Import took 0.028385 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017890 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.765 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.7 MB.
-System memory in use after: 95.7 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2523.
-Total: 6.298600 ms (FindLiveObjects: 0.502100 ms CreateObjectMapping: 0.082200 ms MarkObjects: 5.403400 ms  DeleteObjects: 0.307300 ms)
+  Time since last request: 0.000746 seconds.
+  path: Assets/Font/OpenSans-SemiboldItalic.ttf
+  artifactKey: Guid(1858641607ba3ce46886aa6f4d8aca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/OpenSans-SemiboldItalic.ttf using Guid(1858641607ba3ce46886aa6f4d8aca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b66d0d45849a6c47df41df861906e1') in 0.020501 seconds
+  Import took 0.029651 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1179.841183 seconds.
-  path: Assets/Fornt
-  artifactKey: Guid(0e4981980825437499e31b13cb73ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fornt using Guid(0e4981980825437499e31b13cb73ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd036dff87764e99b75023a32cc43ed') in 0.017950 seconds
-  Import took 0.029753 seconds .
+  Time since last request: 0.000738 seconds.
+  path: Assets/Font/OpenSans-Regular.ttf
+  artifactKey: Guid(1ef1ab0bf090d304683ed5fb650fc1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/OpenSans-Regular.ttf using Guid(1ef1ab0bf090d304683ed5fb650fc1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6d2619954ce7c918e91e282c819cba') in 0.023138 seconds
+  Import took 0.033584 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000570 seconds.
-  path: Assets/Fornt
-  artifactKey: Guid(0e4981980825437499e31b13cb73ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fornt using Guid(0e4981980825437499e31b13cb73ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd036dff87764e99b75023a32cc43ed') in 0.002768 seconds
-  Import took 0.012567 seconds .
+  Time since last request: 0.000431 seconds.
+  path: Assets/Font/OpenSans-ExtraBoldItalic.ttf
+  artifactKey: Guid(ebeaf122ea6527a49a3b0343c52ce1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/OpenSans-ExtraBoldItalic.ttf using Guid(ebeaf122ea6527a49a3b0343c52ce1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd813b733b42f1c776d73982aef22c672') in 0.023583 seconds
+  Import took 0.032047 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 14.741488 seconds.
-  path: Assets/Font
-  artifactKey: Guid(a9f39ad21599b694b8ce8312bc43e520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Font using Guid(a9f39ad21599b694b8ce8312bc43e520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392d860fdfbfa56c72ef120e126a4ca2') in 0.002940 seconds
-  Import took 0.010550 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
