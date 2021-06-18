@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1858641607ba3ce46886aa6f4d8aca8a
+guid: 6193ab0b1e68d6249a01d2ceed5a4b2d
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,12 +9,8 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Open Sans
-  fallbackFontReferences:
-  - {fileID: 12800000, guid: 765f8bc361364244bb8704e09f5fb723, type: 3}
-  - {fileID: 12800000, guid: 52ef7819fd1fdfa4f96ab0462fadadd3, type: 3}
-  - {fileID: 12800000, guid: c2e21b8c51244f94f8b4c5dcca7940a0, type: 3}
-  - {fileID: 12800000, guid: 170972a984083ba409680f82995a12d9, type: 3}
+  - AvusW00-Medium
+  fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
