@@ -386,6 +386,7 @@ RectTransform:
   - {fileID: 519420032}
   - {fileID: 1879843285}
   - {fileID: 785624172}
+  - {fileID: 1592546974}
   - {fileID: 1849757688}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -720,9 +721,8 @@ Transform:
   m_LocalScale: {x: 438.96118, y: 227.51122, z: 3.4028}
   m_Children:
   - {fileID: 1551276258}
-  - {fileID: 1592546974}
   m_Father: {fileID: 594871351}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1849757689
 MonoBehaviour:
@@ -952,7 +952,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1849757688}
+    m_TransformParent: {fileID: 594871351}
     m_Modifications:
     - target: {fileID: 5265338768547893081, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
       propertyPath: m_FontData.m_MinSize
@@ -964,19 +964,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5265338768753590425, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
       propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265338768753590425, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265338768753590425, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5265338768753590425, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5265338768753590425, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.3678077
+      value: 147.45331
       objectReference: {fileID: 0}
     - target: {fileID: 5265338768753590425, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.3179345
+      value: 933.8898
       objectReference: {fileID: 0}
     - target: {fileID: 5265338768753590425, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.974
+      value: -6.7171273
       objectReference: {fileID: 0}
     - target: {fileID: 5265338768753590425, guid: 33b6ac5a81f47294982f10218ccdaa7a, type: 3}
       propertyPath: m_LocalRotation.w
