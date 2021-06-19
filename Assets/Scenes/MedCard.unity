@@ -2666,11 +2666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0dc92164ddd16a4390817196f01878b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  title: {fileID: 961177243}
-  text: {fileID: 1858056668}
-  but: {fileID: 580201703}
-  s:
-    s: 
 --- !u!114 &580201707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2988,7 +2983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4079773393365439789, guid: cb5ca3ded84bc8f44b1f4ccd22faaad3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -276.99994
+      value: -335
       objectReference: {fileID: 0}
     - target: {fileID: 4079773393365439791, guid: cb5ca3ded84bc8f44b1f4ccd22faaad3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
