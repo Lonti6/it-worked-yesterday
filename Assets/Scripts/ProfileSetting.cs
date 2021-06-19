@@ -10,7 +10,7 @@ public class ProfileSetting
     public string Password = "";
     public static ProfileSetting PROFILE = new ProfileSetting();
     public static Dictionary<string, string> userData = new Dictionary<string, string> { };
-    public static Dictionary<string, int> answerUsers = new Dictionary<string, int> { };
+    public static Dictionary<string, float> answerUsers = new Dictionary<string, float> { };
 
     public static void saveProfile()
     {
