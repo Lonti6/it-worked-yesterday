@@ -9,4 +9,6 @@ public class ProfileSetting
     public string Phone = "";
     public string Password = "";
     public static ProfileSetting PROFILE = new ProfileSetting();
+    public static Dictionary<string, string> userData = new Dictionary<string, string> { };
+    public static Dictionary<string, int> answerUsers = new Dictionary<string, int> { };
 }

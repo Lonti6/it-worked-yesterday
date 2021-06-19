@@ -8,6 +8,7 @@ public class LoadingScene : MonoBehaviour
 	public string sceneName;
 	public void ChangeScene()
 	{
+		Debug.Log(sceneName);
 		SceneManager.LoadScene(sceneName);
 	}
 	public void Exit()
