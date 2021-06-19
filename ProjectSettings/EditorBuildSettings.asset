@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tests.unity
     guid: e3591fa96ee31fe42ae5fdec1ed49ae7
+  - enabled: 1
+    path: Assets/Scenes/Maps.unity
+    guid: 559f1ee33e71ed243b974cc5c2d2e10b
+  - enabled: 1
+    path: Assets/Scenes/Enter.unity
+    guid: b1520e6b092c2ba45aef7f7b1e205961
   m_configObjects: {}
