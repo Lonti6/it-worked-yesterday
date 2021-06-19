@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Enter.unity
     guid: b1520e6b092c2ba45aef7f7b1e205961
+  - enabled: 1
+    path: Assets/Scenes/news.unity
+    guid: ec9fdfa5f4461204fb3d7516a93e1e37
   m_configObjects: {}
