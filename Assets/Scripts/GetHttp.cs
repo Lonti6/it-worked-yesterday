@@ -22,6 +22,13 @@ namespace DefaultNamespace
             StartCoroutine(GetRequest(uri + "registration", postData));
         }
 
+        public void sendNewNote(Note note)
+        {
+            var postData = JsonUtility.ToJson(note);
+            Debug.Log(postData);
+            StartCoroutine(GetRequest(uri + "create-note", postData));
+        }
+
         IEnumerator GetRequest(string uri, string postData)
         {
             byte[] bytes = Encoding.Default.GetBytes(postData);
