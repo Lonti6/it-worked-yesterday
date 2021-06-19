@@ -2272,7 +2272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a076eb5c5c64cd44b80e6747dd160f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: SendMessage
+  sceneName: Main
 --- !u!1 &1454465773
 GameObject:
   m_ObjectHideFlags: 0
