@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ProfileSetting 
 {
-    string FirstName = "";
-    string LastName = "";
-    string Phone = "";
-
-    static ProfileSetting PROFILE = new ProfileSetting();
+    public string FirstName = "";
+    public string LastName = "";
+    public string Phone = "";
+    public string Password = "";
+    public static ProfileSetting PROFILE = new ProfileSetting();
 }
