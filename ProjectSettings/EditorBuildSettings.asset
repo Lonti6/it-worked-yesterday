@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/news.unity
     guid: ec9fdfa5f4461204fb3d7516a93e1e37
+  - enabled: 1
+    path: Assets/Scenes/chats.unity
+    guid: 155af0af6aff21444ac1d3fcceca5607
   m_configObjects: {}
