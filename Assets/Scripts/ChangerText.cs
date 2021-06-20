@@ -9,7 +9,7 @@ public class ChangerText : MonoBehaviour
     {
         foreach(var i in ProfileSetting.userData.Keys) 
         {
-            text.text += i + "\n" + "*" + ProfileSetting.userData[i] + "\n";
+            text.text += i + "\n" + ProfileSetting.userData[i] + "\n"+"\n";
         }
     }
 }
