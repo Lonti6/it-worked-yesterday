@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Enter.unity
+    guid: b1520e6b092c2ba45aef7f7b1e205961
+  - enabled: 1
+    path: Assets/Scenes/Registration.unity
+    guid: ea1ab3f4b632a914b98f762683206dd1
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -15,17 +21,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MedCard.unity
     guid: 6ddbce764e69b054b98c8beb3cdf0a0a
   - enabled: 1
-    path: Assets/Scenes/Registration.unity
-    guid: ea1ab3f4b632a914b98f762683206dd1
-  - enabled: 1
     path: Assets/Scenes/Tests.unity
     guid: e3591fa96ee31fe42ae5fdec1ed49ae7
   - enabled: 1
     path: Assets/Scenes/Maps.unity
     guid: 559f1ee33e71ed243b974cc5c2d2e10b
-  - enabled: 1
-    path: Assets/Scenes/Enter.unity
-    guid: b1520e6b092c2ba45aef7f7b1e205961
   - enabled: 1
     path: Assets/Scenes/news.unity
     guid: ec9fdfa5f4461204fb3d7516a93e1e37
